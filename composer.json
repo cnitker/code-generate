@@ -1,5 +1,5 @@
 {
-    "name": "xifan/code-generate",
+    "name": "cnitker/code-generate",
     "description": "saas build controller,logic,model,validate",
     "type": "library",
     "autoload": {
