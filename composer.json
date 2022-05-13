@@ -2,6 +2,7 @@
     "name": "cnitker/code-generate",
     "description": "saas build controller,logic,model,validate",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "cnitker\\codeGenerate\\": "src/"
