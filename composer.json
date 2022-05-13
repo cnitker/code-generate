@@ -1,0 +1,33 @@
+{
+    "name": "xifan/code-generate",
+    "description": "saas build controller,logic,model,validate",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "cnitker\\codeGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lirong",
+            "email": "city86@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.0.0"
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "cnitker\\codeGenerate\\Service"
+            ],
+            "config": {
+                "queue": "src/config.php"
+            }
+        }
+    },
+    "require-dev": {
+    }
+}
